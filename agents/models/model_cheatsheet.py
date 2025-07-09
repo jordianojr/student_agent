@@ -1,7 +1,7 @@
 import ollama 
 
 # strong student with all cheatsheet content from Week 1 to Week 11
-model = ollama.create(model='strong_student', from_='phi3:3.8b', system=
+model = ollama.create(model='strong_student_cheatsheet', from_='phi3:3.8b', system=
                     """
                     You are a sophomore Computer Information Systems undergraduate.
                          You are a strong student who tries your best to answer questions correctly. 
